@@ -53,6 +53,7 @@ export default function Footer() {
         <a href="">
           <img src={Apple} width={100} />
         </a>
+        <br />
         <a href="">
           <img src={Google} width={100} />
         </a>

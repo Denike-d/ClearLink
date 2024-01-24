@@ -48,13 +48,16 @@ export default function Testimonial() {
           </div>
         </div>
       </div>
-      <div className="pictures">
-        <img src={Image} width={160} />
-        <img src={Image_1} width={160} height={240} />
-        <br />
-        <img src={Image2} width={192} height={128} />
-        <img src={Image3} width={160} height={240} />
-        <img src={Image4} width={192} height={128} />
+      <div>
+        <div className="picture1">
+          <img src={Image} width={160} height={160} />
+          <img src={Image_1} width={160} height={240} />
+        </div>
+        <div className="picture2">
+          <img src={Image2} width={192} height={128} />
+          <img src={Image3} width={160} height={240} />
+          <img src={Image4} width={192} height={128} />
+        </div>
       </div>
     </div>
   );

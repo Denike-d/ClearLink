@@ -7,11 +7,12 @@ export default function Faqs() {
   return (
     <div className="faqs">
       <div className="first">
-        <p>Support</p>
+        <p style={{ color: "#175CD3" }}>Support</p>
         <h2>FAQs</h2>
-        <p>
-          Everything you need to know about the product and billing. Can’t find
-          the answer you’re looking for? Please chat to our friendly team.
+        <p style={{ lineHeight: "1.5rem", color: "#667085" }}>
+          Everything you need to know about the product
+          <br /> and billing. Can’t find the answer you’re looking <br /> for?
+          Please <a href="">chat to our friendly team.</a>
         </p>
       </div>
       <div className="accordion">

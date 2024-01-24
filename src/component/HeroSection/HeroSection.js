@@ -9,13 +9,20 @@ export default function HeroSection() {
   return (
     <div className="hero-section">
       <div className="first-section">
-        <h2>
+        <h2 style={{ fontSize: "50px" }}>
           Uniting the world, <br />
           one video call at a time
         </h2>
-        <p>
-          Experience the future of communication with ClearLink <br /> – where
-          crystal-clear video conferencing meets <br /> unparalleled simplicity.
+        <p
+          style={{
+            lineHeight: "1.5rem",
+            marginTop: "-25px",
+            marginBottom: "40px",
+          }}
+        >
+          Experience the future of communication with ClearLink– <br />
+          where crystal-clear video conferencing meets <br /> unparalleled
+          simplicity.
         </p>
         <div className="buttons">
           <button className="one">Start your free trial</button>

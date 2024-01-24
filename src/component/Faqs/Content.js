@@ -1,24 +1,26 @@
 export const accordionData = [
   {
-    title: "Section 1",
-    content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-      laborum cupiditate possimus labore, hic temporibus velit dicta earum
-      suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-      voluptatem.`,
+    title: "How many participants can join a ClearLink video conference?",
+    content: `ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.`,
   },
   {
-    title: "Section 2",
-    content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-      reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-      quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-      pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-      quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-      Repudiandae, mollitia id reprehenderit a ab odit!`,
+    title: "Can I use ClearLink on multiple devices?",
+    content: ``,
   },
   {
-    title: "Section 3",
-    content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-      quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-      dolor ut sequi minus iste? Quas?`,
+    title: "Is ClearLink compatible with other video conferencing platforms?",
+    content: ``,
+  },
+  {
+    title: "How does ClearLink ensure the security of my video conferences?",
+    content: ``,
+  },
+  {
+    title: "Do I need to download any software to use ClearLink?",
+    content: ``,
+  },
+  {
+    title: "What kind of customer support does ClearLink provide?",
+    content: ``,
   },
 ];
