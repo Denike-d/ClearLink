@@ -1,0 +1,11 @@
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  background-color: #f9fafb;
+}
+.socials .icons {
+  margin-left: 1rem;
+}

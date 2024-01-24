@@ -1,0 +1,22 @@
+.pricing {
+  display: flex;
+  margin: 10rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.check {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.pricing .buttons .two {
+  padding: 14px 24px;
+  border-radius: 100px;
+  background-color: #175cd3;
+  margin-left: 15px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
+}

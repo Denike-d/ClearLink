@@ -1,0 +1,15 @@
+.advantage {
+  margin: 10rem 3rem;
+}
+.advantage .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7rem;
+  margin-top: 5rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}

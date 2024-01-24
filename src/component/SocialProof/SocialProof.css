@@ -1,0 +1,10 @@
+.social-proof {
+  margin: 2rem 3rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}

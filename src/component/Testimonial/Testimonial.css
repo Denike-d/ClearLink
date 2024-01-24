@@ -1,0 +1,30 @@
+.testimonial {
+  display: flex;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafb;
+}
+.testimonial h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.testimonial .first {
+  width: 50%;
+}
+.testimonial .pictures {
+  gap: 10rem;
+}
+.testimonial .stars {
+  margin-top: 1rem;
+}
+.testimonial .testimony {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.testimonial .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
