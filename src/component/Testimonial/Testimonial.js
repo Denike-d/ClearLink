@@ -41,9 +41,7 @@ export default function Testimonial() {
             </div>
           </div>
           <div className="arrows">
-            <button>
-              <img src={LeftArrow} width={40} style={{ marginRight: "10px" }} />
-            </button>
+            <img src={LeftArrow} width={40} style={{ marginRight: "10px" }} />
             <img src={RightArrow} width={40} />
           </div>
         </div>

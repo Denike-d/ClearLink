@@ -8,6 +8,11 @@
   gap: 7rem;
   margin-top: 5rem;
 }
+.advantage .advantage-1 {
+  display: flex;
+  gap: 12rem;
+  margin-bottom: -3.5rem;
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

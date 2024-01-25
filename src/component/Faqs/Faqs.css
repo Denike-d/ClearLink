@@ -6,6 +6,9 @@
 .faqs .first {
   width: 50%;
 }
+.faqs .first a {
+  color: #667085;
+}
 .accordion {
   width: 50%;
   margin: 2rem auto;

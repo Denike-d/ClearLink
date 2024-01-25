@@ -4,29 +4,36 @@ import Video from "./Video.png";
 import Recording from "./Recording.png";
 import Calendar from "./Calendar.png";
 import Lock from "./Lock.png";
+import Hand_drawn from "./Hand_drawn.png";
+
 import "./Advantage.css";
 
 export default function Advantage() {
   return (
     <div className="advantage">
-      <div>
-        <p style={{ color: "#175CD3", fontWeight: "600" }}>
-          The ClearLink Advantage
-        </p>
-        <p
-          style={{
-            fontWeight: "600",
-            fontSize: "38px",
-            marginTop: "-15px",
-          }}
-        >
-          Why choose ClearLink?
-        </p>
-        <p style={{ lineHeight: "1.5rem", marginTop: "-20px" }}>
-          In a world where connection is everything, ClearLink takes the lead.
-          <br />
-          Our cutting-edge video conferencing app offers:
-        </p>
+      <div className="advantage-1">
+        <div>
+          <p style={{ color: "#175CD3", fontWeight: "600" }}>
+            The ClearLink Advantage
+          </p>
+          <p
+            style={{
+              fontWeight: "600",
+              fontSize: "38px",
+              marginTop: "-15px",
+            }}
+          >
+            Why choose ClearLink?
+          </p>
+          <p style={{ lineHeight: "1.5rem", marginTop: "-20px" }}>
+            In a world where connection is everything, ClearLink takes the lead.
+            <br />
+            Our cutting-edge video conferencing app offers:
+          </p>
+        </div>
+        <div>
+          <img src={Hand_drawn} width={300} />
+        </div>
       </div>
       <div className="items">
         <div className="grid-container">
@@ -63,7 +70,7 @@ export default function Advantage() {
             </p>
           </div>
         </div>
-        <div>
+        <div style={{ marginTop: "-5rem", zIndex: "-1" }}>
           <img src={People} width={450} />
         </div>
       </div>
